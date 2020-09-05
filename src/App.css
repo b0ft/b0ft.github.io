@@ -82,8 +82,36 @@ nav {
 
 /* Skills */
 
-.skills {
+.title-skills {
+}
 
+.list-skills {
+  border: 1px solid black;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+}
+
+.skill-container {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.skill-label {
+  display: block;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.skill-img {
+  width: 200px;
+  height: 200px;
+}
+
+.contact {
+  border: 1px solid black;
 }
 
 /* End Skills */
