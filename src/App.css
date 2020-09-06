@@ -11,6 +11,7 @@ nav {
   background-color: black;
   color: white;
   height: 6vh;
+  z-index: 1;
 }
 
 /* Navbar */
@@ -22,6 +23,7 @@ nav {
   align-items: center;
   list-style: none;
   padding: 7px;
+  z-index: 1;
 }
 
 .nav-link {
@@ -40,14 +42,14 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 94vh;
+  min-height: 94vh;
   
 }
 
 .hello-world {
   color: yellow;
   font-weight: 500;
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .my-name {
@@ -90,7 +92,7 @@ nav {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: 80%;
   justify-content: center;
 }
 
@@ -110,10 +112,6 @@ nav {
   height: 200px;
 }
 
-.contact {
-  border: 1px solid black;
-}
-
 /* End Skills */
 
 
@@ -125,5 +123,34 @@ nav {
 
 
 /* About */
+
+.about-me {
+  width: 60vw;
+  margin: 40px;
+}
+
+
+.contacts {
+
+}
+
+.contacts a {
+  color: black;
+}
+
+.contacts-title {
+  margin: 10px 0;
+}
+
+.contact {
+  cursor: pointer;
+  margin: 20px;
+  transition: all .3s;
+}
+
+.contact:hover {
+  opacity: ;
+}
+
 
 /* End About */

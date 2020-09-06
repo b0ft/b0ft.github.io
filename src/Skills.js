@@ -13,7 +13,7 @@ function Skills() {
             <div className="list-skills">
                 <div class="skill-container">
                   <img className="skill-img" src={require(`./logo/html.png`)} />
-                  <label className="skill-label">HTML5</label>
+                  <label className="skill-label">HTML</label>
                 </div>
                 <div class="skill-container">
                   <img className="skill-img" src={require(`./logo/css.png`)} />
