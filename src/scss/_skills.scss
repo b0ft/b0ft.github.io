@@ -6,12 +6,13 @@
 
     &__title {
         @include titlePage;
+        margin-top: 10vh;
     }
 
     &__list {
         @include flexCenter(row);
         flex-wrap: wrap;
-        margin-bottom: 2rem;
+        margin-bottom: 2vh;
     }
 }
 
@@ -28,7 +29,7 @@
 
     &__label {
         font-size: 2rem;
-        font-weight: 700;
+        font-weight: 600;
         display: block;
     }
 }

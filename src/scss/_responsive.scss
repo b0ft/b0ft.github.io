@@ -1,98 +1,98 @@
-@include media-sm {
+// @include media-sm {
 
-    // Navbar
+//     // Navbar
 
-    .nav {
-        // margin: 0;
+//     .nav {
+//         // margin: 0;
 
-        &__links {
-            // margin: 0;
-        }
+//         &__links {
+//             // margin: 0;
+//         }
 
-    }
+//     }
 
-    //Home
+//     //Home
 
 
-    .home {
-        &__hello-world {
-            font-size: 15vw;
-            font-weight: 600;
-        }
+//     .home {
+//         &__hello-world {
+//             font-size: 15vw;
+//             font-weight: 600;
+//         }
 
-        &__name {
-            font-size: 17vw;
-        }
+//         &__name {
+//             font-size: 17vw;
+//         }
 
-        &__first-name {
-            font-size: 18vw;
-        }
+//         &__first-name {
+//             font-size: 18vw;
+//         }
 
-        &__aka {
-            font-size: 5vw;
-        }
+//         &__aka {
+//             font-size: 5vw;
+//         }
 
-        &__boft {
-            font-size: 13vw
-        }
+//         &__boft {
+//             font-size: 13vw
+//         }
 
-        &__job {
-            font-size: 10vw;
-        }
-    }
+//         &__job {
+//             font-size: 10vw;
+//         }
+//     }
 
-    //Skills
+//     //Skills
 
-    .skills {
-        height: 100%;
+//     .skills {
+//         height: 100%;
 
-        &__title {
-            font-size: 15vw;
-            font-weight: 600;
-            margin-top: 6vh;
-        }
-    }
+//         &__title {
+//             font-size: 15vw;
+//             font-weight: 600;
+//             margin-top: 6vh;
+//         }
+//     }
 
-    //Projects 
+//     //Projects 
 
-    .projects {
+//     .projects {
         
-        &__title {
-            font-size: 15vw;
-            font-weight: 600;
-        }
-    }
+//         &__title {
+//             font-size: 15vw;
+//             font-weight: 600;
+//         }
+//     }
     
-    .project {
-        width: 80vw;
+//     .project {
+//         width: 80vw;
 
-        &__visit {
-            font-size: 1.3rem;
-        }
+//         &__visit {
+//             font-size: 1.3rem;
+//         }
         
-    }
+//     }
 
-    //About
+//     //About
 
-    .about {
-        height: 100%;
+//     .about {
+//         height: 100%;
 
-        &__title {
-            font-size: 15vw;
-            font-weight: 600;
-            margin-top: 6vh;
-        }
+//         &__title {
+//             font-size: 15vw;
+//             font-weight: 600;
+//             margin-top: 6vh;
+//         }
 
-        &__img {
-            width: 55vw;
-        }
+//         &__img {
+//             width: 55vw;
+//         }
 
-        &__me {
-            font-size: 5vw;
-        }
-    }
+//         &__me {
+//             font-size: 5vw;
+//         }
+//     }
 
-}
+// }
 
 @include media-md {
 
@@ -133,7 +133,7 @@
         }
 
         &__job {
-            font-size: 7vw;
+            font-size: 5vw;
         }
     }
 
@@ -143,7 +143,7 @@
         height: 100%;
 
         &__title {
-            font-size: 10vw;
+            font-size: 3rem;
             font-weight: 600;
             margin-top: 6vh;
         }
@@ -155,36 +155,134 @@
         
 
         &__title {
-            font-size: 10vw;
+            font-size: 3rem;
             font-weight: 600;
             margin-top: 6vh;
         }
     }
     
     .project {
-        width: 50vw;
-        margin-bottom: 1.5vh;
-        
+        width: 65vw;
+        margin: 1.5vh;
+
+        &__label {
+            font-size: 2rem;
+        }
     }
 
     //About
 
     .about {
-        height: 100%;
 
         &__title {
-            font-size: 10vw;
+            font-size: 3rem;
             font-weight: 600;
             margin-top: 6vh;
         }
 
         &__img {
-            width: 30vw;
+            width: 15rem;
         }
 
         &__me {
-            font-size: 2.85vw;
+            font-size: 2.5vw;
         }
     }
 
+}
+
+@include media-lg {
+
+        // Navbar
+
+        .nav {
+            // margin: 0;
+    
+            &__links {
+                // margin: 0;
+            }
+    
+        }
+    
+        //Home
+    
+    
+        .home {
+            &__hello-world {
+                font-size: 4rem;
+                font-weight: 600;
+            }
+    
+            &__name {
+                font-size: 5rem;
+            }
+    
+            &__first-name {
+                font-size: 6rem;
+            }
+    
+            &__aka {
+                font-size: 3rem;
+            }
+    
+            &__boft {
+                font-size: 4rem;
+            }
+    
+            &__job {
+                font-size: 3rem;
+            }
+        }
+    
+        //Skills
+    
+        .skills {
+    
+            &__title {
+                font-size: 5rem;
+                font-weight: 600;
+                margin-top: 6vh;
+            }
+        }
+    
+        //Projects 
+    
+        .projects {
+            
+    
+            &__title {
+                font-size: 5rem;
+                font-weight: 600;
+                margin-top: 6vh;
+            }
+        }
+        
+        .project {
+            width: 40vw;
+            margin: 1.5vh;
+    
+            &__label {
+                font-size: 2rem;
+            }
+        }
+    
+
+    // About 
+
+    .about {
+
+        &__title {
+            font-size: 5rem;
+            font-weight: 600;
+            margin-top: 6vh;
+        }
+
+        &__img {
+            width: 20rem;
+        }
+
+        &__me {
+            font-size: 1.5rem;
+        }
+    }
 }

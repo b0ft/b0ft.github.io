@@ -1,6 +1,7 @@
 .home {
     @include defaultConfig;
     @include flexCenter(column);
+    height: 100vh;
     margin: 0 0.5rem;
 
     &__hello-world {
@@ -8,7 +9,7 @@
     }
 
     &__name {
-        font-size: 5em;
+        font-size: 10vw;
         font-weight: 600;
     }
 
@@ -18,15 +19,15 @@
     }
 
     &__aka {
-        font-size: 1.8em;
+        font-size: 6vw;
     }
 
     &__boft {
-        font-size: 4em;
+        font-size: 9vw;
     }
     
     &__job {
         border-top: 3px solid black;
-        font-size: 3em;
+        font-size: 5vw;
     }
 }

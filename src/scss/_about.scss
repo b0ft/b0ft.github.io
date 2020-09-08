@@ -4,11 +4,12 @@
 
     &__title{
         @include titlePage;
+        margin-top: 10vh;
     }
     
     &__img {
         border-radius: 50%;
-        width: 15vw;
+        width: 8rem;
         margin-bottom: 1rem;
         @include boxShadow;
     }
