@@ -1,0 +1,31 @@
+.home {
+    @include defaultConfig;
+    @include flexCenter(column);
+
+    &__hello-world {
+        @include titlePage;
+    }
+
+    &__name {
+        font-size: 5em;
+        font-weight: 600;
+    }
+
+    &__first-name{
+        color: $text-color;
+        font-weight: 700;
+    }
+
+    &__aka {
+        font-size: 1.8em;
+    }
+
+    &__boft {
+        font-size: 4em;
+    }
+    
+    &__job {
+        border-top: 3px solid black;
+        font-size: 3em;
+    }
+}

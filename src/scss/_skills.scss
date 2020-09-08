@@ -1,0 +1,33 @@
+.skills {
+    @include defaultConfig;
+    @include flexCenter(column);
+
+    &__title {
+        @include titlePage;
+        margin-top: 5rem;
+    }
+
+    &__list {
+        @include flexCenter(row);
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+}
+
+.skill {
+    @include boxShadow;
+    border-radius: 2rem;
+    padding: 1rem;    
+    margin: 0.5rem;
+
+    &__img {
+        width: 200px;
+        height: 200px;
+    }
+
+    &__label {
+        font-size: 2rem;
+        font-weight: 700;
+        display: block;
+    }
+}

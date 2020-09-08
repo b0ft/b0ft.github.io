@@ -1,0 +1,46 @@
+$primary-color: yellow;
+$secondary-color: black;
+$accent-color: red;
+$text-color: white;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lighten($secondary-color, 20%);
+    color: lighten($primary-color, 30%);
+}
+
+a {
+    text-decoration: none;
+}
+
+@mixin transition {
+    transition: all .3s ease-in-out;
+}
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin defaultConfig{
+    height: 1007px;
+    text-align: center;
+}
+
+@mixin titlePage {
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+@mixin boxShadow {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.6);
+}

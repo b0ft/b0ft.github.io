@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import '../css/main.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -10,14 +10,14 @@ function About() {
   return (
     <div className="about">
       <script src="https://kit.fontawesome.com/cd3884a346.js" crossorigin="anonymous"></script>
-        <h1 className="title-page">About Me</h1>
-        <img src={require('./square.jpg')} alt="aldy syachranie" className="img-about" />
-        <div className="about-me">
+        <h1 className="about__title">About Me</h1>
+        <img src={require('../img/square.jpg')} alt="aldy syachranie" className="about__img" />
+        <div className="about__me">
           <p>
             When I was still in Junior High School, i decided to become a Programmer since then. 
             Why is that? Because I love playing games since I was a kid and began to use computer when I was 4th grade.
             And what is the relation of playing games and want to become a programmer?
-            So when I was a kid, I used to go to Internet Cafe and do anything like browsing, playing games and etc. 
+            So when I was a kid, I used to go to Internet Cafe and do something like browsing, playing games, etc. 
             And after so many years, my typing skills is keep improving.
             Back then when I was in Junior High School, I wanted to use my typing skills to make something out of it.
             And so, here I am.
@@ -31,8 +31,8 @@ function About() {
             After successfully created my first website using HTML and CSS in 10th grade, i decided to become a Web Developer.
           </p>          
         </div>
+        <h4 className="contacts__title">You can find me below here!</h4>
         <div class="contacts">
-          <h4 className="contacts-title">You can find me below here!</h4>
           <a href="https://facebook.com/aldysr" className="contact">
             <FontAwesomeIcon icon={['fab','facebook']} size="2x" />
           </a>

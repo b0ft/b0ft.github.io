@@ -1,0 +1,32 @@
+.projects {
+    @include defaultConfig;
+    @include flexCenter(column);
+
+    &__title {
+        @include titlePage;
+        margin-top: 3rem;
+    }
+
+    &__list {
+        @include flexCenter(row);
+        flex-wrap: wrap;
+    }
+}
+
+.project {
+    @include boxShadow;
+    border-radius: 2rem;
+    padding: 1rem;    
+    margin: 0.5rem;
+
+    &__img {
+        width: 200px;
+        height: 200px;
+    }
+
+    &__label {
+        font-size: 3vw;
+        font-weight: 700;
+        display: block;
+    }
+}

@@ -1,9 +1,9 @@
 import React from 'react'
-import './App.css'
+import '../css/main.css'
 import Navbar from './Navbar'
 import Home from './Home'
 import Skills from './Skills'
-import Project from './Project'
+import Projects from './Projects'
 import About from './About'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -16,7 +16,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/skills" component={Skills} />
-          <Route path="/project" component={Project} />
+          <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
         </Switch>
       </div>

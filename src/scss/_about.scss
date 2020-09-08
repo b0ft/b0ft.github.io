@@ -1,0 +1,45 @@
+.about {
+    @include defaultConfig;
+    @include flexCenter(column);
+
+    &__title{
+        @include titlePage;
+    }
+    
+    &__img {
+        border-radius: 50%;
+        width: 15vw;
+        margin-bottom: 1rem;
+        @include boxShadow;
+    }
+
+    &__me {
+        width: 75vw;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
+.contacts{
+    // border: 1px solid black;
+    width: 100%;
+    height: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact {
+    // border: 1px solid black;
+    // padding: 1rem;
+    color: $primary-color;
+    margin: 1rem;
+    @include transition;
+
+    &:hover {
+        font-size: 1.4rem;
+    }
+}
