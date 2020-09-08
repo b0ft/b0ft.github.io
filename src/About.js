@@ -11,6 +11,7 @@ function About() {
     <div className="about">
       <script src="https://kit.fontawesome.com/cd3884a346.js" crossorigin="anonymous"></script>
         <h1 className="title-page">About Me</h1>
+        <img src={require('./square.jpg')} alt="aldy syachranie" className="img-about" />
         <div className="about-me">
           <p>
             When I was still in Junior High School, i decided to become a Programmer since then. 

@@ -10,14 +10,19 @@ nav {
   align-items: center;
   background-color: black;
   color: white;
+  min-height: 50px;
   height: 6vh;
   z-index: 1;
+}
+
+.title-page {
+  margin-bottom: 25px;
 }
 
 /* Navbar */
 
 .nav-links{
-  width: 70%;
+  width: 30%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -35,9 +40,10 @@ nav {
 
 /* Home */
 
-.home, .skills, .project, .about {
+.home, .skills, .projects, .about {
   text-align: center;
-  background-color: rgb(80, 79, 79);
+  color: black;
+  background-color: rgb(98, 98, 87);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,9 +93,7 @@ nav {
 .title-skills {
 }
 
-.list-skills {
-  border: 1px solid black;
-  margin-top: 50px;
+.list-skills {  
   display: flex;
   flex-wrap: wrap;
   width: 80%;
@@ -118,6 +122,29 @@ nav {
 
 /* Projects */
 
+.list-projects {  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 80%;
+  justify-content: center;
+}
+
+.project-container {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.project-label {
+  display: block;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.project-img {
+  width: 200px;
+  height: 200px;
+}
+
 /* End Projects  */
 
 
@@ -126,12 +153,16 @@ nav {
 
 .about-me {
   width: 60vw;
-  margin: 40px;
+  margin: 30px 40px;
 }
 
+.img-about {
+  border-radius: 50%;
+  width: 20vh;
+}
 
 .contacts {
-
+  margin-bottom: 25px;
 }
 
 .contacts a {
