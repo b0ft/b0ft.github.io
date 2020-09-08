@@ -24,8 +24,6 @@ a {
 }
 
 .nav__links {
-  width: 80%;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -361,5 +359,112 @@ a {
 
 .contact:hover {
   font-size: 1.4rem;
+}
+
+@media screen and (min-width: 320px) {
+  .home__hello-world {
+    font-size: 15vw;
+    font-weight: 600;
+  }
+  .home__name {
+    font-size: 17vw;
+  }
+  .home__first-name {
+    font-size: 18vw;
+  }
+  .home__aka {
+    font-size: 5vw;
+  }
+  .home__boft {
+    font-size: 13vw;
+  }
+  .home__job {
+    font-size: 10vw;
+  }
+  .skills {
+    height: 100%;
+  }
+  .skills__title {
+    font-size: 15vw;
+    font-weight: 600;
+    margin-top: 6vh;
+  }
+  .projects__title {
+    font-size: 15vw;
+    font-weight: 600;
+  }
+  .project {
+    width: 80vw;
+  }
+  .project__visit {
+    font-size: 1.3rem;
+  }
+  .about {
+    height: 100%;
+  }
+  .about__title {
+    font-size: 15vw;
+    font-weight: 600;
+    margin-top: 6vh;
+  }
+  .about__img {
+    width: 55vw;
+  }
+  .about__me {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home__hello-world {
+    font-size: 7vw;
+    font-weight: 600;
+  }
+  .home__name {
+    font-size: 9vw;
+  }
+  .home__first-name {
+    font-size: 11vw;
+  }
+  .home__aka {
+    font-size: 5vw;
+  }
+  .home__boft {
+    font-size: 10vw;
+  }
+  .home__job {
+    font-size: 7vw;
+  }
+  .skills {
+    height: 100%;
+  }
+  .skills__title {
+    font-size: 10vw;
+    font-weight: 600;
+    margin-top: 6vh;
+  }
+  .projects__title {
+    font-size: 10vw;
+    font-weight: 600;
+    margin-top: 6vh;
+  }
+  .project {
+    width: 50vw;
+    margin-bottom: 1.5vh;
+  }
+  .about {
+    height: 100%;
+  }
+  .about__title {
+    font-size: 10vw;
+    font-weight: 600;
+    margin-top: 6vh;
+  }
+  .about__img {
+    width: 30vw;
+  }
+  .about__me {
+    font-size: 2.85vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -44,3 +44,27 @@ a {
 @mixin boxShadow {
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.6);
 }
+
+@mixin media-sm {
+    @media screen and (min-width: 320px) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media screen and (min-width: 768px){
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1024px){
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1600px){
+        @content;
+    }
+}
