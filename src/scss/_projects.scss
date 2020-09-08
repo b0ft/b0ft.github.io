@@ -4,7 +4,6 @@
 
     &__title {
         @include titlePage;
-        margin-top: 3rem;
     }
 
     &__list {
@@ -14,19 +13,95 @@
 }
 
 .project {
+    width: 20rem;
     @include boxShadow;
-    border-radius: 2rem;
+    position: relative;
+    border-radius: 1rem;
     padding: 1rem;    
     margin: 0.5rem;
+    @include transition;
 
+    &::after {
+        content: '';
+        position: absolute;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        top: 0;
+        left: 0;
+        height: 95.2%;
+        width: 100%;
+        background: lighten($secondary-color, 30%);
+        opacity: 0;
+        @include transition;
+    }
+
+    
+    &:hover{
+        &::after{
+            // top: 0;
+            opacity: 0.9;
+        }
+        .project__languages {
+            opacity: 1;
+            
+        }
+    }
+
+    &__languages {
+        opacity: 0;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        z-index: 1;
+        @include transition;
+        cursor: default;
+    }
+
+    &__language {
+        @include boxShadow;
+        background-color: $secondary-color;
+        border-radius: 2rem;
+        padding: 1rem;
+        margin: 0.5rem 0.7rem;
+        font-weight: 700;
+    }
+    
     &__img {
         width: 200px;
         height: 200px;
     }
 
     &__label {
-        font-size: 3vw;
+        font-size: 2rem;
         font-weight: 700;
         display: block;
+        margin-bottom: 1rem;
     }
+
+    &__visit {
+        color: $secondary-color;
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    &__site {
+        cursor: pointer;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0.2rem 0;
+        background-color: lighten($secondary-color, 50%);
+        @include transition;
+        
+        &:hover {
+            background-color: darken($secondary-color, 50%);
+            color: lighten($secondary-color, 70%)
+        }
+    }
+    
 }

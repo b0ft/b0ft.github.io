@@ -1,6 +1,7 @@
 .home {
     @include defaultConfig;
     @include flexCenter(column);
+    margin: 0 0.5rem;
 
     &__hello-world {
         @include titlePage;
