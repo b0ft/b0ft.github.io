@@ -15,7 +15,7 @@ function Skills() {
                   <label className="skill__label">CSS</label>
                 </div>
                 <div class="skill">
-                  <img className="skill__img" src={require(`../img/logo/css.png`)} alt="scss"/>
+                  <img className="skill__img" src={require(`../img/logo/scss.svg`)} alt="scss"/>
                   <label className="skill__label">SCSS/SASS</label>
                 </div>
                 <div class="skill">

@@ -7,7 +7,7 @@ function Project() {
         <h1 className="projects__title">Projects</h1>
         <div className="projects__list">
             <div class="project">
-                <img className="project__img" src={require(`../img/logo/html.png`)} alt="html"/>
+                <img className="project__img" src={require(`../img/headphone.png`)} alt="html"/>
                 <label className="project__label">e-Commerce Headphone</label>
                 <ul className="project__languages">
                 <li className="project__language">HTML</li>
@@ -17,7 +17,7 @@ function Project() {
                 <a href="https://ecommerce-headphone.netlify.app/" className="project__visit"><div className="project__site">Visit</div></a>
             </div>
             <div class="project">
-                <img className="project__img" src={require(`../img/logo/html.png`)} alt="html"/>
+                <img className="project__img" src={require(`../img/smartphone.png`)} alt="html"/>
                 <label className="project__label">e-Commerce Smartphone</label>
                 <ul className="project__languages">
                 <li className="project__language">HTML</li>
