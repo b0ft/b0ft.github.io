@@ -27,28 +27,6 @@ function Project() {
                 </ul>
                 <a href="https://ecommerce-smartphone.netlify.app/" className="project__visit"><div className="project__site">Visit</div></a>
             </div>
-            {/* <div class="project">
-                <img className="project__img" src={require(`../img/logo/html.png`)} alt="html"/>
-                <label className="project__label">Online Voting App</label>
-                <ul className="project__languages">
-                <li className="project__language">HTML</li>
-                <li className="project__language">CSS</li>
-                <li className="project__language">PHP</li>
-                <li className="project__language">MySQL</li>
-                </ul>
-                <h5 className="project__visit"><div className="project__site">Visit</div></h5>
-            </div>
-            <div class="project">
-                <img className="project__img" src={require(`../img/logo/html.png`)} alt="html"/>
-                <label className="project__label">Class Picket</label>
-                <ul className="project__languages">
-                <li className="project__language">HTML</li>
-                <li className="project__language">CSS</li>
-                <li className="project__language">PHP</li>
-                <li className="project__language">MySQL</li>
-                </ul>
-                <h5 className="project__visit"><div className="project__site">Visit</div></h5>
-            </div> */}
         </div>
     </div>
   );
