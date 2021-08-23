@@ -33,7 +33,7 @@ function About() {
         </div>
         <h4 className="contacts__title">You can find me below here!</h4>
         <div class="contacts">
-          <a href="https://facebook.com/aldysych" className="contact">
+          <a href="https://www.facebook.com/aldysych" className="contact">
             <FontAwesomeIcon icon={['fab','facebook']} size="2x" />
           </a>
           <a href="https://instagram.com/aldysych" className="contact" >
