@@ -5,6 +5,7 @@ import Home from './Home'
 import Skills from './Skills'
 import Projects from './Projects'
 import About from './About'
+import Secret from './Secret'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 
