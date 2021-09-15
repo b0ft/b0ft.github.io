@@ -14,7 +14,7 @@ function About() {
         <img src={require('../img/square.jpg')} alt="aldy syachranie" className="about__img" />
         <div className="about__me">
           <p>
-            When I was still in Junior High School, i decided to become a Programmer since then. 
+            When I was still in Junior High School, I decided to become a Programmer since then. 
             Why is that? Because I love playing games since I was a kid and began to use computer when I was 4th grade.
             And what is the relation of playing games and want to become a programmer?
             So when I was a kid, I used to go to Internet Cafe and do something like browsing, playing games, etc. 
@@ -28,7 +28,7 @@ function About() {
             That is a Vocational High School with a Software Engineering major.
             After successfully enter the school that I wanted, I learned so many programming language from my High School.
             But the only one I'm really interested in is Web Development.
-            After successfully created my first website using HTML and CSS in 10th grade, i decided to become a Web Developer.
+            After successfully created my first website using HTML and CSS in 10th grade, I decided to become a Web Developer.
           </p>          
         </div>
         <h4 className="contacts__title">You can find me below here!</h4>
